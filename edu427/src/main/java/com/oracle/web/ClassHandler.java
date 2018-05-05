@@ -20,6 +20,7 @@ public class ClassHandler {
 	ClassService classService;
 	
 	
+	
 	@RequestMapping("/{path}")
 	public String path(@PathVariable("path") String path) {		
 		return "class/"+path;
